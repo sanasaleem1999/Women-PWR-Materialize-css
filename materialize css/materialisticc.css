@@ -1,0 +1,277 @@
+.wrapper{
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-container{
+    height: 700px;
+}
+.box1{
+    margin-top: -16%;
+}
+h1.plus{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    animation: text 5s infinite;
+    text-shadow: 2px 2px black;
+}
+@keyframes text{
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 13px;
+    }
+}
+.p-plus{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    animation: text 5s infinite;
+    text-shadow: 2px 2px gray;
+}
+
+@keyframes text{
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 13px;
+    }
+}
+
+ .myhead{
+     background-color: rgba(25, 24, 26, 0.849);
+ }
+.my-first-icard{
+    color: black;
+    padding-left: 6px;
+}
+.box2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-para{
+    margin-left: 25%; 
+    font-size: 40px; 
+    margin-top: 30px; 
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.box3{
+    background-color: navy;
+}
+.third-para{
+    color: white;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+/*.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }*/
+.main-content{
+    display: flex;
+}
+div.item1{
+    background-color: navy;
+    flex-basis: 400%;
+    height: 500px;
+
+}
+div.item2{
+    flex-basis: 400%;
+    height: 500px;
+}
+.fourth-head{
+    
+    flex-basis: 400%;
+    margin-top: 20%;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.forth-para{
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.first-switch{
+    margin-left: 36%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+.mypic1{
+    width: 800px;
+    height: 500px;
+}
+.fifth-para{
+    margin-top: 30px;
+}
+input{
+    padding-top: 3px;
+    margin-left: 20px;
+    border: hidden;
+}
+input:hover{
+    width: 260px;
+}
+.signn-up{
+    margin-left: 7px;
+    margin-top: 30px;
+    background-color: rgb(233, 76, 102);
+}
+a.ssgn{
+    padding-left: 140px;
+    color: white;
+    font: bold;
+    padding-top: 30px;
+}
+
+a.about{
+    color: black;
+    padding-left: 60px;
+}
+.box8{
+    background-color: darkblue;
+}
+.seventh-para{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.toppcontent{
+    display: flex;
+}
+.toppone{
+    background-color: yellow;
+    padding-top: 5%;
+    flex-basis: 40%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.topptwo{
+    background-color: pink;
+    flex-basis: 40%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.toppthree{
+    background-color: cyan;
+    flex-basis: 40%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.iconsed{
+    position: fixed;
+    top: 60%;
+    left: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.iconsed a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'oswald',sans-serif;
+    text-align: right;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-150px, 0px);
+    transition: all 0.5s;
+}
+.iconsed a:hover{
+    transform: translate(0px, 0px);
+
+}
+.facebook{
+    background-color: #2C80D3;
+    color: white;
+}
+.youtube{
+    background-color: #fa0910;
+    color: white;
+}
+.twitter{
+    background-color: #53c5ff;
+    color: white;
+}
+.iconsed a i{
+    background-color: white;
+    margin-left: 14px;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.iconsed a i.fa-facebook-f{
+    color: #2C80D3;;
+}
+.iconsed a i.fa-youtube{
+    color: #fa0910;
+}
+.iconsed a i.fa-twitter{
+    color: #53c5ff;
+}
+.carousel{
+    display: none;
+}
+#effectt:hover .start{
+    display: none;
+}
+#effectt:hover .women{
+    color: rgb(122, 13, 32);
+}
+ @media screen and (max-width:700px){
+     div.main-content{
+         flex-wrap: wrap;
+     }
+     .toppcontent{
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .toppone{
+         flex-basis: 100%;
+     }
+     .topptwo{
+        flex-basis: 100%;
+    }
+    .toppthree{
+        flex-basis: 100%;
+    }
+    .carousel{
+        display: flex;
+    }
+    .cardssection{
+        display: none;
+    }
+    div.box1{
+        margin-top: -330px;
+    }
+    div.sixth-box{
+        margin-left: -50px;
+    }
+ }
